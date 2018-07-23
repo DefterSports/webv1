@@ -1,0 +1,159 @@
+body{
+    padding-top: 50px;
+    //background-color: #170722;
+}
+
+.white{
+    background-color: #FFFFFF;
+}
+
+.team-img {
+    border-width: medium !important;
+    border-color: #ff015b !important;
+    width: 50%;
+    height: auto;
+    
+    
+}
+
+.centered{
+    text-align: center;
+}
+
+.logo{
+    max-height: 15px;
+}
+
+.jumbotronHeader{
+    color: #f3f3f3 !important;
+    font-size: 4.0em !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+    /*text-shadow: black 0.1em 0.1em 0.3em;*/
+}
+
+.jumbotron{
+    
+    position: relative;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), #260b38 url("img/purplePitch.jpg") 50% 90%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.jumbotron p{
+    color: #EDEFF0 !important;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.defterh2{
+    font-family: 'Poppins', sans-serif !important;
+    color:#404040;
+    
+}
+
+.defterh3{
+    font-family: 'Amiko', sans-serif !important;
+    color:#404040;
+    font-size: 1.6em;
+    
+}
+
+#frontpageCover{
+    
+    max-width: 400px;
+    text-align: left;
+   
+}
+
+.productPic{
+    margin: 0 auto;
+}
+
+.bigCta{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 700 !important;
+}
+
+.raspberry{
+    background: #ff015b !important;
+}
+
+.purple{
+    background: #37003c !important;
+}
+
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    
+}
+
+.noPaddingLeft{
+    padding-left: 0 !important;
+    margin-left: 0;
+    
+}
+
+@media (max-width: 425px){
+    .jumbotronHeader{
+        font-size: 3em !important;
+    }
+    
+    .jumbotron p{
+        font-size: 1.35em;
+    }
+    
+    #frontpageCover{    
+        max-width: 340px;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+}
+
+@media (max-width: 320px){
+    .jumbotronHeader{
+        font-size: 1.8em !important;
+        font-weight: 600 !important;
+    }
+    
+    #frontpageCover{    
+        max-width: 280px;
+        
+    }
+    
+    .jumbotron p{
+        font-size: 1.2em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    .defterh2{
+        font-size: 1.75em;
+    }
+    
+    .defterh3{
+        font-size: 1.4em;
+    }
+    
+}
