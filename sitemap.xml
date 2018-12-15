@@ -1,20 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://deftersports.com/categories/</loc>
-    <priority>0</priority>
+    <loc>http://www.deftersports.com/index.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="http://www.deftersports.com/index.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="http://www.example.com/espanol.html"/>
   </url>
-  
   <url>
-    <loc>http://deftersports.com/</loc>
-    <priority>0</priority>
+    <loc>http://www.deftersports.com/aboutus.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="http://www.deftersports.com/aboutus.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="http://www.example.com/acercade.html"/>
   </url>
-  
   <url>
-    <loc>http://deftersports.com/tags/</loc>
-    <priority>0</priority>
+    <loc>http://www.deftersports.com/espanol.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="http://www.deftersports.com/index.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="http://www.example.com/espanol.html"/>
   </url>
-  
+  <url>
+    <loc>http://www.deftersports.com/acercade.html</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="http://www.deftersports.com/aboutus.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="http://www.example.com/acercade.html"/>
+  </url>
 </urlset>
